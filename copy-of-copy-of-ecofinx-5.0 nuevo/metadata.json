@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of Ecofinx 5.0",
+  "description": "An all-in-one application for managing expenses, credits, and financial goals. Get AI-powered insights into your loans and organize your financial life with ease.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}

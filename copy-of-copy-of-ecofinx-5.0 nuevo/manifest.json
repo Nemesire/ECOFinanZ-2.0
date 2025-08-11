@@ -1,0 +1,37 @@
+{
+  "short_name": "ECOFinZ",
+  "name": "ECOFinZ - Personal Finance Hub",
+  "icons": [
+    {
+      "src": "./icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0F172A",
+  "background_color": "#0F172A",
+  "description": "An all-in-one application for managing expenses, credits, and financial goals.",
+  "shortcuts": [
+    {
+      "name": "Añadir Movimiento",
+      "short_name": "Añadir",
+      "description": "Registra un nuevo ingreso o gasto",
+      "url": "./#/accounting",
+      "icons": [{ "src": "./icons/shortcut-add.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Escanear Recibo",
+      "short_name": "Escanear",
+      "description": "Registra un gasto escaneando un recibo",
+      "url": "./#/accounting?scan=true",
+      "icons": [{ "src": "./icons/shortcut-scan.png", "sizes": "192x192" }]
+    }
+  ]
+}
